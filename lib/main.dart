@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:spoticlone/core/configs/theme/app_theme.dart';
+import 'package:spoticlone/presentation/splash/pages/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: Container(),
+      theme: AppTheme.lightTheme,
+      home: const SplashPage(),
     );
   }
 }

@@ -8,6 +8,7 @@ class AppTheme {
     scaffoldBackgroundColor: AppColors.lightBackground,
     brightness: Brightness.light,
     fontFamily: GoogleFonts.roboto().fontFamily,
+    useMaterial3: true,
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
@@ -27,6 +28,7 @@ class AppTheme {
     scaffoldBackgroundColor: AppColors.darkBackground,
     brightness: Brightness.dark,
     fontFamily: GoogleFonts.roboto().fontFamily,
+    useMaterial3: true,
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
